@@ -1,4 +1,4 @@
-/* rgba(230, 253, 96, 0.76)
+/* 
 #232323
  */
 
@@ -140,6 +140,7 @@
  }
 
 
+ /*background-color: rgba(230, 253, 96, 0.76);*/
 
 
 
@@ -147,16 +148,28 @@
      font-family: Monospace;
      font-weight: bolder;
      font-size: 1.9em;
-      margin: 0% 10% ;
-      color:rgba(45, 44, 46, 0.979);
+    margin: 5% 10% ;
+    color:gray;
       
  }
-
+  
+  /*aside{
+      font-weight: bold;
+      font-size: 1.4em;
+      color : rgba(29, 2, 23, 0.74) ;
+      margin-left:65% ;
+      padding-top: 5%;
+  }
+*/
 #programs{
     display: grid;
     justify-content: left;
     /*border-bottom: 1px double  rgb(31, 29, 29);
     border-top: 1px double rgb(31, 29, 29);*/
+}
+h1{
+    padding: 2% 7% ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h3{ 
     font-family: Fantasy;
@@ -169,7 +182,7 @@ h3{
 h4{
     display: contents;
     font-size: 1.4em;
-    color:rgba(230, 253, 96, 0.76);
+    color: rgba(66, 22, 57, 0.74);
     font-style: oblique;
     
 
@@ -185,7 +198,7 @@ a{
 }
 .java{
     margin: 0% 10%;
-    margin-top: 7%;
+    
     
 }
 .logic{
@@ -201,6 +214,7 @@ a{
 
 }
 .signals{
+    
     margin: 0% 10%;
     /*border: 1px solid black; */
 }
@@ -221,11 +235,12 @@ a{
     margin: 0% 10%;
 
 }
-.web{
+.dc{
     margin: 0% 10%;
 
 }
-.dc{
+.web{
     margin: 0% 10%;
+    margin-bottom: 20%;
 
 }
