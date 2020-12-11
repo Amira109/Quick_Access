@@ -1,0 +1,365 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+}
+/* rgba(230, 253, 96, 0.76)
+#232323
+ */
+
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /* for body(nav bar header)*/
+ .nav {
+     background: #2A2C43;
+     height: 80px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     
+    
+ }
+  
+ .nav li {
+     float: left;
+     list-style-type: none;
+     position: relative;
+ }
+ 
+ .nav li a {
+     font-size: 16px;
+     color: white;
+     display: block;
+     line-height: 60px;
+     padding: 0 26px;
+     text-decoration: none;
+     border-right: 1px solid #505080;
+     font-family: Montserrat, sans-serif;
+     text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    
+     
+ 
+ }
+ .nav li a:hover {
+     background-color: #505080;
+ }
+  
+ #logo {
+     float: left;
+     margin-right: 130px;
+     border-bottom: 1px solid #2A2C43;
+ }
+ 
+ 
+ 
+ #options a{
+     border-left: 0 none;
+ }
+ 
+ .subOption {
+     visibility: hidden;
+     position: absolute;
+     left: 0;
+     width: 200px;
+     height: auto;
+     opacity: 0;
+     transition: all 0.1s;
+     background: #2A2C43;
+ 
+ }
+ .subOption li {
+     float: none;
+ }
+ .subOption li a {
+     border-bottom: 1px solid #2A2C43;
+ }
+ #options:hover .subOption {
+     visibility: visible;
+     top: 100%;
+     opacity: 1;
+ }
+ 
+ 
+ .subOption1, .subOption2, .subOption3, .subOption4, .subOption5 {
+     
+     visibility: hidden;
+     position: absolute ;
+     left: 200px;
+     width: 200px;
+     height: auto;
+     opacity: 0;
+     transition: all 0.1s;
+     background: #2A2C43; 
+ }
+ 
+ #level1:hover .subOption1, #level2:hover .subOption2, #level3:hover .subOption3 ,#level4:hover .subOption4
+ ,#level5:hover .subOption5  {
+     visibility: visible;
+     top: 0%;
+     opacity: 1;
+ }
+ 
+ 
+ 
+ 
+ #search {
+     width: 390spx;
+     margin: 4px;
+     margin-left: 20px;
+    
+ }
+ #search_text{
+     width: 300px;
+     height: 52px;
+     padding: 15px 0 15px 20px;
+     font-size: 16px;
+     font-family: Montserrat, sans-serif;
+     border: 0 none;
+     margin-right: 0;
+     color: #232323;
+     font-weight: bold;
+     outline: none;
+     background: white;
+     float: left;
+     box-sizing: border-box;
+     transition: all 0.15s;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+ }
+ #btnSearch{
+     border: 0 none;
+     padding: 0;
+     width: 60px;
+     height: 52px;
+     float: left;  
+     text-align: center;
+     cursor: pointer;
+     color: white;
+     background-color:rgba(230, 253, 96, 0.76); 
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+  /* for body(header)*/
+  h6{
+
+    font-size: 35px;
+    color: #505080;
+    /* font-family:  'Roboto Slab', serif; */
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Libre Baskerville', serif;
+  margin-top: 25px;
+  margin-left: 35%;
+ 
+  } 
+ h2{
+    text-transform: uppercase;
+    color:#5D87A1;
+    font-weight: 900;
+    font-size: 22px;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 3px;
+    margin-left: 40%;
+    text-decoration: underline;
+    
+} 
+ font{
+    color:#f2f2f2;
+    font-size: 17px;
+    font-family:  'Roboto Slab', serif;
+}
+.container {
+    position: relative;
+    height: 500px;
+    width: 100%;
+  }
+  
+  .topleft {
+    position: absolute;
+    top:120px;
+    left: 16px;
+    font-size: 18px;
+    align-items: center;
+  }
+  
+  .container.img { 
+    
+    height: 550px;
+    
+    }
+    h1{
+        color: #ffffff;
+        font-size:  50px;
+       font-weight: bold; 
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Libre Baskerville', serif;
+    } 
+    
+    
+
+/* for body(book container)*/
+.gallery-cont {
+/* background-color:#bed7e4; */
+position: relative;
+height: auto;
+margin-left: 70px;
+margin-right: 70px;
+margin-top: 0px;
+
+}
+.gallery {
+margin-top: 50px;
+margin-left: 80px;
+margin-bottom: 10px;
+
+  float: left;
+  width: 300px;
+  align-items: center;
+  background-color: #F2F2F2;
+  height: auto;
+  
+}
+.titlebo1{
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 37%;
+  height: auto;
+  
+  
+  }
+  h3{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #2A2C43;
+    font-weight: bold;
+    margin-left: 25px;
+    font-family: 'Abril Fatface', cursive;
+        font-family: 'Libre Baskerville', serif;
+  }
+
+
+
+.gallery-imag{
+  width:300px;
+ height: auto;
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 25px;
+margin-bottom: 10px;
+ /* margin-left: 25px;
+ margin-top: 20px; */
+ align-items: center;
+ box-shadow: 0vw;
+}
+
+desc {
+  padding: 100px;
+margin-left: 5px;
+  text-align: center;
+  margin-top: 10px;
+ 
+}
+button{
+  background-color:#2A2C43;
+  border: 0.1px solid #6B4495; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 270px;
+  
+}
+button:hover {
+  background-color: #FFFFFF;
+  border: 0.1px solid #6B4495; 
+  color: #000;
+}
+h4{
+      font-size: 18px;
+      color: #ffffff;
+      font-family:  'Roboto Slab', serif;
+    margin-top: 10px;
+      
+    }
+    h5{
+      font-size: 19px;
+      color: #ffffff;
+      font-family:  'Roboto Slab', serif;
+    margin-top: 10px;
+    }
+   
+  .QuotesSection{
+  
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    
+  }
+
+  .gallery2-cont {
+    
+    height: 300px;
+    margin-top: 0px;
+    align-items: center;
+    background-color: #E1E1E1;
+
+    }
+
+.gallery2{
+
+ margin-top: 20px;
+
+margin-bottom: 10px; 
+margin-right: 10px;
+margin-left: 10px;
+  /* border: 1px solid #C8C6FA; */
+  float: left;
+  width: 300px;
+  background-color: #ffffff;
+ align-items: center;
+ 
+}
+
+.centercot {
+  margin-left: 0px;
+  position: absolute;
+  top:40px;
+  left: 16px;
+  font-size: 18px;
+  
+  z-index: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 10%;
+}
+.color-overlay{
+ 
+  width: 100%;
+  height: 100%;
+  background: #2A2C43;
+  opacity: .9;
+  position: absolute;
+}
