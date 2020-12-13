@@ -112,8 +112,9 @@ body{
  
  #search {
      width: 390spx;
-     margin: 4px;
+     /* margin: 9px; */
      margin-left: 20px;
+     margin-top: 11px;
     
  }
  #search_text{
@@ -146,6 +147,7 @@ body{
      background-color:rgba(230, 253, 96, 0.76); 
      border-top-right-radius: 10px;
      border-bottom-right-radius: 10px;
+     margin-top: 3px;
  }
   /* for body(header)*/
   h6{
@@ -208,26 +210,29 @@ body{
 
 /* for body(book container)*/
 .gallery-cont {
-/* background-color:#bed7e4; */
-position: relative;
+background-color:#ffffff; 
+/* position: relative; */
 height: auto;
-margin-left: 70px;
-margin-right: 70px;
+
+width: 100%;
+align-items: center;
 margin-top: 0px;
 
 }
 .gallery {
-margin-top: 50px;
+margin-top: 30px;
 margin-left: 80px;
 margin-bottom: 10px;
 
   float: left;
   width: 300px;
   align-items: center;
-  background-color: #F2F2F2;
+ background-color: #E8E8E8;
   height: auto;
+ 
   
 }
+
 .titlebo1{
   align-items: center;
   margin-top: 20px;
@@ -239,13 +244,13 @@ margin-bottom: 10px;
   }
   h3{
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 5px;
     color: #2A2C43;
     font-weight: bold;
     margin-left: 25px;
     font-family: 'Abril Fatface', cursive;
-        font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif;
   }
 
 
@@ -256,11 +261,11 @@ margin-bottom: 10px;
 margin-left: 25px;
 margin-right: 25px;
 margin-top: 25px;
-margin-bottom: 10px;
+margin-bottom: 0px;
  /* margin-left: 25px;
  margin-top: 20px; */
  align-items: center;
- box-shadow: 0vw;
+
 }
 
 desc {
@@ -272,7 +277,7 @@ margin-left: 5px;
 }
 button{
   background-color:#2A2C43;
-  border: 0.1px solid #6B4495; 
+  border: 0.1px solid #FFFFFF ; 
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -284,11 +289,12 @@ button{
   margin-top: 5px;
   cursor: pointer;
   width: 270px;
-  
+  font-family: 'Abril Fatface', cursive;
+    font-family: 'Libre Baskerville', serif;
 }
 button:hover {
   background-color: #FFFFFF;
-  border: 0.1px solid #6B4495; 
+  border: 0.1px solid #2A2C43; 
   color: #000;
 }
 h4{
@@ -323,7 +329,10 @@ h4{
     margin-top: 0px;
     align-items: center;
     background-color: #E1E1E1;
-
+    text-decoration: underline;
+    text-decoration-color: #505080;
+    text-shadow: #2A2C43;
+  
     }
 
 .gallery2{
@@ -342,24 +351,78 @@ margin-left: 10px;
 }
 
 .centercot {
-  margin-left: 0px;
+  margin-left: 50%px;
   position: absolute;
   top:40px;
   left: 16px;
   font-size: 18px;
-  
+  width: 50%;
   z-index: 1;
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
   margin-top: 0px;
-  margin-left: 10%;
+  margin-left: 20%;
+  align-items: center;
 }
 .color-overlay{
  
   width: 100%;
-  height: 100%;
+  height: 400px;
   background: #2A2C43;
-  opacity: .9;
+  opacity: .6;
   position: absolute;
+ 
+}
+
+
+
+.color-overlayprogram{
+ 
+  width: 100%;
+  height: 400px;
+  background: #2A2C43;
+  opacity: .6;
+  position: absolute;
+ 
+}
+.centercotprogram{
+  margin-left: 30%px;
+  position: absolute;
+  top:40px;
+  left: 16px;
+  font-size: 18px;
+  width: 50%;
+  z-index: 1;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  text-align: left;
+  text-size-adjust: 30px;
+  margin-top: 0px;
+  margin-left: 10%;
+  align-items: center;
+  
+}
+.pragramButton{
+  margin-left: 30%;
+  background-color:#2A2C43;
+  border: 0.1px solid #FFFFFF ; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100px;
+  float: right;
+  font-family: 'Abril Fatface', cursive;
+    font-family: 'Libre Baskerville', serif;
+    opacity: .6;
+   
+}
+.pragramButton:hover{
+  opacity: 1;
 }
