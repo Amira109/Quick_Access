@@ -245,3 +245,14 @@ a{
     margin-bottom: 20%;
 
 }
+
+/* footer */
+.footer {
+    height: 60px;
+    background-color: #2A2C43;
+    color: white;
+    display: flex ;
+    justify-content: left;
+    align-items:center;
+    font-size: 18px ;
+  }
