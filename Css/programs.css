@@ -1,5 +1,6 @@
-/* 
-#232323
+/* rgba(230, 253, 96, 0.76)
+background-color for nav #2A2C43
+border in nav #505080
  */
 
  @import url(https://fonts.googleapis.com/css?family=Montserrat);
@@ -10,7 +11,7 @@
  
  /* for body(header)*/
  .nav {
-     background: #232323;
+     background: #2A2C43 ;
      height: 80px;
      width: 100%;
      display: flex;
@@ -32,7 +33,7 @@
      line-height: 60px;
      padding: 0 26px;
      text-decoration: none;
-     border-right: 1px solid #2e2e2e;
+     border-right: 1px solid #505080;
      font-family: Montserrat, sans-serif;
      text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
     
@@ -40,13 +41,13 @@
  
  }
  .nav li a:hover {
-     background-color: #2e2e2e;
+     background-color: #505080;
  }
   
  #logo {
      float: left;
      margin-right: 130px;
-     border-bottom: 1px solid #232323;
+     border-bottom: 1px solid #2A2C43;
  }
  
  
@@ -63,14 +64,14 @@
      height: auto;
      opacity: 0;
      transition: all 0.1s;
-     background: #232323;
+     background: #2A2C43;
  
  }
  .subOption li {
      float: none;
  }
  .subOption li a {
-     border-bottom: 1px solid #2e2e2e;
+     border-bottom: 1px solid #505080;
  }
  #options:hover .subOption {
      visibility: visible;
@@ -88,7 +89,7 @@
      height: auto;
      opacity: 0;
      transition: all 0.1s;
-     background: #232323; 
+     background: #2A2C43; 
  }
  
  #level1:hover .subOption1, #level2:hover .subOption2, #level3:hover .subOption3 ,#level4:hover .subOption4
@@ -115,7 +116,7 @@
      font-family: Montserrat, sans-serif;
      border: 0 none;
      margin-right: 0;
-     color: #232323;
+     color: #2A2C43;
      font-weight: bold;
      outline: none;
      background: white;
@@ -138,7 +139,7 @@
      border-top-right-radius: 10px;
      border-bottom-right-radius: 10px;
  }
-
+ 
 
  /*background-color: rgba(230, 253, 96, 0.76);*/
 
@@ -244,3 +245,14 @@ a{
     margin-bottom: 20%;
 
 }
+
+/* footer */
+.footer {
+    height: 60px;
+    background-color: #2A2C43;
+    color: white;
+    display: flex ;
+    justify-content: left;
+    align-items:center;
+    font-size: 18px ;
+  }
