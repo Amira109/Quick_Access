@@ -3,14 +3,14 @@
     height: 600px;
     margin-bottom: 30px;
 }
-.image1 , .image2, .image3, .image4{
+.image1{
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-position: center;
    
-}
+}/*
 .image1{
   
     background-image: url(../Picture/article1.jpg);
@@ -27,7 +27,7 @@
     background-image: url(../Picture/article4.jpeg);
    
     
-}
+}*/
 .book{
     position: absolute;
     top: 80%;
@@ -102,7 +102,7 @@
 /*end articles*/
 /*start gold*/
 .gold_img {
-    background-image: url(../Picture/article1.jpg);
+    /*background-image: url(../Picture/article1.jpg);*/
     height: 400px;
     background-position: center;
     background-size: cover;

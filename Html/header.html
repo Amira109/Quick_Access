@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>index.php</title>
+    <link rel="stylesheet" href="../Css/index.css"/>
+    <link rel="stylesheet" href="../Css/fontawesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Slab:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- start header -->
+   <header style="position: fixed;z-index: 2;width: 100%">
+        <ul class="nav" >
+                <li><a href="index.php"><img  id="logo" src="../Picture/logo.jpg" style="margin-left: -26px ;" width="140px" height="79px" alt="logo" title="site logo" ></a>
+                </li>
+                <li><a href="index.php"> Home </a></li>
+                <li><a href="Articles.php"> Articles </a></li>
+                <li id="options" style="z-index: 99;"> <a>Levels </a>
+                    <ul class="subOption">
+                        <li id="level1"><a>Level 1 </a>
+                            <ul class="subOption1">
+                                <li><a href="LevelsPage.php?semester=11">First semester </a></li>
+                                <li><a href="LevelsPage.php?semester=12">Second semester </a></li>
+                            </ul>
+                        </li>
+
+                        <li id="level2"><a>Level 2 </a>
+                            <ul class="subOption2">
+                                <li><a href="LevelsPage.php?semester=21">First semester </a></li>
+                                <li><a href="LevelsPage.php?semester=22">Second semester </a></li>
+                            </ul>
+                        </li>
+
+                        <li id="level3"><a>Level 3</a>
+                            <ul class="subOption3">
+                                <li><a href="LevelsPage.php?semester=31">First semester </a></li>
+                                <li><a href="LevelsPage.php?semester=32">Second semester </a></li>
+                            </ul>
+                        </li>
+                        
+                        <li id="level4"><a>Level 4</a>
+                            <ul class="subOption4">
+                                <li><a href="LevelsPage.php?semester=41">First semester </a></li>
+                                <li><a href="LevelsPage.php?semester=42">Second semester </a></li>
+                            </ul>
+                        </li>
+
+                        <li id="level5"><a>Level 5</a>
+                            <ul class="subOption5">
+                                <li><a href="LevelsPage.php?semester=51">First semester </a></li>
+                                <li><a href="LevelsPage.php?semester=52">Second semester </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="programs.php"> Programs </a></li>
+                <li><a href="contact.php"> Contact us</a></li>
+
+                <li id="search">
+                    <form action="results_search.php?" method="get">
+                        <input type="text" name="search_text" id="search_text"  placeholder="Search"/>
+                        <button id= "btnSearch" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li>
+                <!--
+                <li>
+                    <a href="admin_articles.php"><button class ="button" type="submit"><i class="fa fa-arrow-right"></i></button></a>
+                </li>-->
+            </ul> 
+
+    </header>
+
+</body>
+</html>
