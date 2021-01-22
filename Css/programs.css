@@ -1,0 +1,258 @@
+/* rgba(230, 253, 96, 0.76)
+background-color for nav #2A2C43
+border in nav #505080
+ */
+
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /* for body(header)*/
+ .nav {
+     background: #2A2C43 ;
+     height: 80px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     
+    
+ }
+  
+ .nav li {
+     float: left;
+     list-style-type: none;
+     position: relative;
+ }
+ 
+ .nav li a {
+     font-size: 16px;
+     color: white;
+     display: block;
+     line-height: 60px;
+     padding: 0 26px;
+     text-decoration: none;
+     border-right: 1px solid #505080;
+     font-family: Montserrat, sans-serif;
+     text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    
+     
+ 
+ }
+ .nav li a:hover {
+     background-color: #505080;
+ }
+  
+ #logo {
+     float: left;
+     margin-right: 130px;
+     border-bottom: 1px solid #2A2C43;
+ }
+ 
+ 
+ 
+ #options a{
+     border-left: 0 none;
+ }
+ 
+ .subOption {
+     visibility: hidden;
+     position: absolute;
+     left: 0;
+     width: 200px;
+     height: auto;
+     opacity: 0;
+     transition: all 0.1s;
+     background: #2A2C43;
+ 
+ }
+ .subOption li {
+     float: none;
+ }
+ .subOption li a {
+     border-bottom: 1px solid #505080;
+ }
+ #options:hover .subOption {
+     visibility: visible;
+     top: 100%;
+     opacity: 1;
+ }
+ 
+ 
+ .subOption1, .subOption2, .subOption3, .subOption4, .subOption5 {
+     
+     visibility: hidden;
+     position: absolute ;
+     left: 200px;
+     width: 200px;
+     height: auto;
+     opacity: 0;
+     transition: all 0.1s;
+     background: #2A2C43; 
+ }
+ 
+ #level1:hover .subOption1, #level2:hover .subOption2, #level3:hover .subOption3 ,#level4:hover .subOption4
+ ,#level5:hover .subOption5  {
+     visibility: visible;
+     top: 0%;
+     opacity: 1;
+ }
+ 
+ 
+ 
+ 
+ #search {
+     width: 390spx;
+     margin: 4px;
+     margin-left: 20px;
+    
+ }
+ #search_text{
+     width: 300px;
+     height: 52px;
+     padding: 15px 0 15px 20px;
+     font-size: 16px;
+     font-family: Montserrat, sans-serif;
+     border: 0 none;
+     margin-right: 0;
+     color: #2A2C43;
+     font-weight: bold;
+     outline: none;
+     background: white;
+     float: left;
+     box-sizing: border-box;
+     transition: all 0.15s;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+ }
+ #btnSearch{
+     border: 0 none;
+     padding: 0;
+     width: 60px;
+     height: 52px;
+     float: left;  
+     text-align: center;
+     cursor: pointer;
+     color: white;
+     background-color:rgba(230, 253, 96, 0.76); 
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+ 
+
+ /*background-color: rgba(230, 253, 96, 0.76);*/
+
+
+
+ .start_p {
+     font-family: Monospace;
+     font-weight: bolder;
+     font-size: 1.9em;
+    margin: 5% 10% ;
+    color:gray;
+      
+ }
+  
+  /*aside{
+      font-weight: bold;
+      font-size: 1.4em;
+      color : rgba(29, 2, 23, 0.74) ;
+      margin-left:65% ;
+      padding-top: 5%;
+  }
+*/
+#programs{
+    display: grid;
+    justify-content: left;
+    /*border-bottom: 1px double  rgb(31, 29, 29);
+    border-top: 1px double rgb(31, 29, 29);*/
+}
+h1{
+    padding: 2% 7% ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{ 
+    font-family: Fantasy;
+    display: contents;
+    font-size: 1.7em;
+    
+    color: rgba(71, 6, 57, 0.74);
+    
+}
+h4{
+    display: contents;
+    font-size: 1.4em;
+    color: rgba(66, 22, 57, 0.74);
+    font-style: oblique;
+    
+
+}
+
+
+a{
+    display: contents;
+    color:black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1em;
+}
+.java{
+    margin: 0% 10%;
+    
+    
+}
+.logic{
+    margin: 0% 10%;
+    
+}
+.circuits{
+    margin: 0% 10%;
+
+}
+.elect{
+    margin: 0% 10%;
+
+}
+.signals{
+    
+    margin: 0% 10%;
+    /*border: 1px solid black; */
+}
+.ls{
+    margin: 0% 10%;
+    display: grid;
+
+}
+.db{
+    margin: 0% 10%;
+
+}
+.assembly{
+    margin: 0% 10%;
+    
+}
+.os{
+    margin: 0% 10%;
+
+}
+.dc{
+    margin: 0% 10%;
+
+}
+.web{
+    margin: 0% 10%;
+    margin-bottom: 20%;
+
+}
+
+/* footer */
+.footer {
+    height: 60px;
+    background-color: #2A2C43;
+    color: white;
+    display: flex ;
+    justify-content: left;
+    align-items:center;
+    font-size: 18px ;
+  }

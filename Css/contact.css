@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+/* rgba(230, 253, 96, 0.76)
+background-color for nav #2A2C43
+border in nav #505080
+ */
+ /*ooo*/
+  /*ooo*/
+
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /* for body(header)*/
+ .nav {
+     background: #2A2C43 ;
+     height: 80px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     
+    
+ }
+  
+ .nav li {
+     float: left;
+     list-style-type: none;
+     position: relative;
+ }
+ 
+ .nav li a {
+     font-size: 16px;
+     color: white;
+     display: block;
+     line-height: 60px;
+     padding: 0 26px;
+     text-decoration: none;
+     border-right: 1px solid #505080;
+     font-family: Montserrat, sans-serif;
+     text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    
+     
+ 
+ }
+ .nav li a:hover {
+     background-color: #505080;
+ }
+  
+ #logo {
+     float: left;
+     margin-right: 130px;
+     border-bottom: 1px solid #2A2C43;
+ }
+ 
+ 
+ 
+ #options a{
+     border-left: 0 none;
+ }
+ 
+ .subOption {
+     visibility: hidden;
+     position: absolute;
+     left: 0;
+     width: 200px;
+     height: auto;
+     opacity: 0;
+     transition: all 0.1s;
+     background: #2A2C43;
+ 
+ }
+ .subOption li {
+     float: none;
+ }
+ .subOption li a {
+     border-bottom: 1px solid #505080;
+ }
+ #options:hover .subOption {
+     visibility: visible;
+     top: 100%;
+     opacity: 1;
+ }
+ 
+ 
+ .subOption1, .subOption2, .subOption3, .subOption4, .subOption5 {
+     
+     visibility: hidden;
+     position: absolute ;
+     left: 200px;
+     width: 200px;
+     height: auto;
+     opacity: 0;
+     transition: all 0.1s;
+     background: #2A2C43; 
+ }
+ 
+ #level1:hover .subOption1, #level2:hover .subOption2, #level3:hover .subOption3 ,#level4:hover .subOption4
+ ,#level5:hover .subOption5  {
+     visibility: visible;
+     top: 0%;
+     opacity: 1;
+ }
+ 
+ 
+ 
+ 
+ #search {
+     width: 390spx;
+     margin: 4px;
+     margin-left: 20px;
+    
+ }
+ #search_text{
+     width: 300px;
+     height: 52px;
+     padding: 15px 0 15px 20px;
+     font-size: 16px;
+     font-family: Montserrat, sans-serif;
+     border: 0 none;
+     margin-right: 0;
+     color: #2A2C43;
+     font-weight: bold;
+     outline: none;
+     background: white;
+     float: left;
+     box-sizing: border-box;
+     transition: all 0.15s;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+ }
+ #btnSearch{
+     border: 0 none;
+     padding: 0;
+     width: 60px;
+     height: 52px;
+     float: left;  
+     text-align: center;
+     cursor: pointer;
+     color: white;
+     background-color:rgba(230, 253, 96, 0.76); 
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+.contact{
+    position: relative;
+    height: 600px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://t4.ftcdn.net/jpg/02/07/31/77/240_F_207317715_YhuW4XFhVRdDjZz01UX7DkKeeT0CbNL0.jpg");
+    background-color: rgb(150, 69, 69);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+   
+}
+.contact .content{
+   
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.contact .content p{
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    justify-content:left;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    margin-left: -30px;
+    color: #ffffff;
+}
+.container .contactInfo .box .text p{
+  
+    color: #232323;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    margin-top: 100px;
+    
+}
+.contactForm h3{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-left: 1px;
+
+}
+.contactForm .inputBox {
+width: 100%;
+position: relative;
+margin-top: 10px;
+border: 5px solid #E9B573;
+background-color:rgb(255, 255, 255); opacity:0.8;
+}
+.contactForm .send {
+    background-color: #000000; 
+    margin-top: 10px;
+    margin-left: 140px;
+    
+    color: rgb(0, 0, 0);
+    border: 5px solid #E9B573;
+    padding: 15px 32px;
+    text-align: center;
+  border-radius: 20px;
+    display: inline-block;
+   
+    border-radius: 5px;
+
+    }
+    .contactForm .send input{
+        font-size: 20px;
+        border: none;
+        color: rgb(204, 204, 204);
+        background-color: rgb(0, 0, 0);
+    }
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span
+,.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span
+,.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translatey(-25px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media(max-width:991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+flex-direction: column;
+    }
+.container .contactInfo{
+    margin-top: 40px;
+}
+.container .contactInfo .contactForm {
+    width: 100%;
+}
+
+}
+/* footer */
+.footer {
+    height: 60px;
+    background-color: #2A2C43;
+    color: white;
+    display: flex ;
+    justify-content: left;
+    align-items:center;
+    font-size: 18px ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
